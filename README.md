@@ -1,27 +1,27 @@
-# HeroBook
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+![DALL·E-2024-09-27-13 53](https://github.com/user-attachments/assets/f7c695d4-944e-4291-acf4-dca70ef092fc)
 
-## Development server
+# **Hero Book Frontend**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+An interactive web application for exploring and creating dynamic, story-driven adventures.
 
-## Code scaffolding
+## **Project Overview**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Hero Book is a web platform that allows users to play interactive stories where their decisions shape the outcome. Built using **Angular** and integrated with a RESTful API backend, the application provides a seamless and engaging user experience.
 
-## Build
+## **Technologies Used**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Frontend:** Angular, TypeScript, SCSS
+- **HTTP Client:** Integrated with REST API (HATEOAS standard)
+- **Tools & Libraries:** Angular CLI, Karma, Jasmine
+- **Version Control:** Git, GitHub
 
-## Running unit tests
+## **Installation**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Clone the repository:
 
-## Running end-to-end tests
+```bash
+git clone https://github.com/yourusername/hero-book-frontend.git
+cd hero-book-frontend
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

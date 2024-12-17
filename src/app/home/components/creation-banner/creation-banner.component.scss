@@ -1,0 +1,44 @@
+
+.creation-banner{
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e375aaf1-f31e-4f9b-bcf8-19bf79ad86d6/dilfcsi-3e0d624e-0fa5-49b1-8c4a-84b33254f505.jpg/v1/fill/w_1264,h_632,q_70,strp/humble_beginnings__by_dawisam_dilfcsi-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI3MiIsInBhdGgiOiJcL2ZcL2UzNzVhYWYxLWYzMWUtNGY5Yi1iY2Y4LTE5YmY3OWFkODZkNlwvZGlsZmNzaS0zZTBkNjI0ZS0wZmE1LTQ5YjEtOGM0YS04NGIzMzI1NGY1MDUuanBnIiwid2lkdGgiOiI8PTI1NDQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.N2kACH4NaKlPaV3B4V21Focp4CeDVN0wveVqaKBOiBM);
+  background-repeat: no-repeat;
+  height: 550px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  border-bottom: solid 4px #313131;
+  border-top: solid 4px #313131;
+
+  &__container{
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  &__content{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    &-title{
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+
+    &-description{
+      font-size: 2rem;
+    }
+  }
+}

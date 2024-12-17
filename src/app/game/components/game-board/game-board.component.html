@@ -1,0 +1,4 @@
+<p>{{scene.description}}</p>
+<div *ngFor="let choice of scene.choices">
+  <button (click)="selectChoice(choice)">{{choice.title}}</button>
+</div>

@@ -1,0 +1,44 @@
+@import "@styles/variables.scss";
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  height: 5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: $background-color;
+
+  li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+// Responsive styles
+@media (max-width: $breakpoint-mobile) {
+  .navbar {
+    flex-wrap: wrap;
+
+    // Menu toggle button for mobile
+    .menu-toggle {
+      display: block;
+    }
+  }
+}

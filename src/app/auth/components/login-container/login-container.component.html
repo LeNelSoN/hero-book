@@ -1,0 +1,15 @@
+<div class="login">
+  <h2 class="login--title">Login</h2>
+  <form class="login--form" [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="login--form__username">
+      <label for="username">Username</label>
+      <input type="text" id="username" formControlName="username">
+    </div>
+    <div class="login--form__password">
+      <label for="password">Password</label>
+      <input [type]="passwordType" id="password" formControlName="password">
+      <button type="button" (click)="togglePassword()">Show</button>
+    </div>
+    <button class="login--form__submit" type="submit">Login</button>
+  </form>
+</div>

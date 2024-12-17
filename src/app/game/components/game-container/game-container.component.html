@@ -1,0 +1,7 @@
+<ng-container *ngIf="scene; else loading">
+  <app-game-board [scene]="scene"/>
+</ng-container>
+
+<ng-template #loading>
+  <p>...loading</p>
+</ng-template>

@@ -2,6 +2,12 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "paths": {
+      "@styles/*": ["src/styles/*"],
+      "@model/*": ["src/app/core/model/*"],
+      "@service/*": ["src/app/core/service/*"],
+      "@constant/*": ["src/app/core/constant/*"],
+    },
     "outDir": "./out-tsc/app",
     "types": [
       "node"

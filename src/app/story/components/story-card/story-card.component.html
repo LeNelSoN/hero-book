@@ -1,0 +1,7 @@
+<div *ngIf="story" class="story-card">
+  <h2 data-testid="story-title" class="story-card--title">{{story.title}}</h2>
+  <p data-testid="story-description">{{story.description}}</p>
+  <div *ngFor="let link of story.links">
+    <link-action [link]="link" [selectedRedirection]="RedirectKey.GAME">Start Game</link-action>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+
+
+.benefit-card {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9a0309e1-d90d-499f-b5de-8a65d7396675/diocqge-622e7ea0-4a7b-40f9-b048-16ec9a15d176.jpg/v1/fill/w_1195,h_669,q_70,strp/the_kingdom_of_the_high_elves_by_tiamatdxv_diocqge-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjQwMCIsInBhdGgiOiJcL2ZcLzlhMDMwOWUxLWQ5MGQtNDk5Zi1iNWRlLThhNjVkNzM5NjY3NVwvZGlvY3FnZS02MjJlN2VhMC00YTdiLTQwZjktYjA0OC0xNmVjOWExNWQxNzYuanBnIiwid2lkdGgiOiI8PTQyODgifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.FtDSnYk1qtkLmH1o8w6gJkKV1yVXtq1a5m8CUjHG61I);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  height: 800px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__title {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  &__description {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+}

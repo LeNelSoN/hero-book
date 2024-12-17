@@ -1,0 +1,5 @@
+<app-story-presenter
+  *ngIf="stories$ | async as storyList"
+  [stories]="storyList"
+  [loading]="loading"
+/>

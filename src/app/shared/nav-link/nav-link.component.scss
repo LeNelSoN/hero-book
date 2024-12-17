@@ -1,0 +1,14 @@
+@import "@styles/variables.scss";
+
+a {
+  text-decoration: none;
+  color: $text-color;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  margin: 8px;
+
+  &:hover {
+    border-color: $primary-color;
+  }
+}
+

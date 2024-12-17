@@ -1,0 +1,6 @@
+<div *ngIf="loading" class="loader">
+  ...loading
+</div>
+<div *ngIf="!loading">
+  <app-story-card *ngFor="let story of stories" [story]="story" />
+</div>
